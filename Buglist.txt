@@ -1,0 +1,5 @@
+Bug Number 1: Peek Looked at the back of the queue not the front.
+Bug Number 2: When Dequeueing it dequeued from where the back of the queue should be.
+Bug Number 3: Enqueued new value and it looked to the new value instead of the front of the queue it was still looking at the back.
+Bug Number 4: Deconstructor doesn't work.
+This is functioning as last in first out. Which isn't how a queue works. Last in First out is how a stack works.
